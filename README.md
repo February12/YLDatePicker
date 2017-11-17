@@ -1,6 +1,8 @@
 # YLDatePicker
 时间选择器(与UIDatePicker的区别是区域之外的时间不显示)
 
+![img](https://github.com/February12/YLDatePicker/blob/master/screenshot.png)
+
 # 希望
 
 - 如果您在使用时发现错误，希望您可以 Issues 我
