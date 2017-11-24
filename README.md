@@ -19,7 +19,7 @@
 # 使用
 
 ```swift
-let datePicker = YLDatePicker(currentDate: nil, minLimitDate: Date(), 						maxLimitDate: nil, datePickerType: .YM) { [weak self] (date) in
+let datePicker = YLDatePicker(currentDate: nil, minLimitDate: Date(), maxLimitDate: nil, datePickerType: .YM) { [weak self] (date) in
                 self?.navigationItem.title = date.getString(format: "yyyy-MM")
             }
 datePicker.show()
